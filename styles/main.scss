@@ -1,0 +1,48 @@
+// style guide variables
+
+$headline-text: 3rem;  // 3rem (300% of body/root element);
+$body-text: 1rem;
+$nav-item: 1.25rem;
+$sub-header: 1.5rem;
+$byline: 075rem;
+
+// margin size for headlines
+$headline-margine: 5px;
+
+// font variables!
+// you can get this from Google fonts
+$sans-serif:
+$serif:
+
+
+body {
+  font-family: $sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: $serif;
+  font-size: $headline-text;
+  margin: $headline-margine;
+}
+
+body {
+  font-size: $body-text;
+}
+
+nav li {
+  font-size: $nav-item;
+}
+
+h2 {
+  font-size: $sub-header;
+  margin: $headline-margine;
+}
+
+p {
+  font-size: $body-text;
+}
+
+figcaption {
+  font-size: $byline;
+}

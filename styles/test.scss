@@ -1,0 +1,11 @@
+$black: black;
+$white: aliceblue;
+$normal-size: 1.25em;
+
+body {
+  /* Sass comment */
+  // javascript comment
+  background: $black;
+  color: $white;
+  font-size: $normal-size;
+}
